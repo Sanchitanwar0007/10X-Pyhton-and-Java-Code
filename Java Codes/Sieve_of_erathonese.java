@@ -22,7 +22,8 @@ public class Sieve_of_erathonese {
     public static void main(String[] args0){
         Scanner scan = new Scanner(System.in);
         int n=scan.nextInt();
-        Sieve_algo(n);
+        Sieve_algo(n);  
         scan.close();
+        
     }
 }
