@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Smallest_substrig_of_a_string_containing_all_the_characters_of_another_string",
+            "request": "launch",
+            "mainClass": "Smallest_substrig_of_a_string_containing_all_the_characters_of_another_string",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pair_wit_equal_sum",
+            "request": "launch",
+            "mainClass": "Pair_wit_equal_sum",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Longest_subarray_with_equal_number_of_0_1and_2",
             "request": "launch",
             "mainClass": "Longest_subarray_with_equal_number_of_0_1and_2",
