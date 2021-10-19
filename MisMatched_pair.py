@@ -1,0 +1,17 @@
+n=int(input())
+arr=list(map(int,input().split()))
+arr.sort()
+left=0
+right=n-1
+ans=float('inf')
+while(left<right):
+    diff=arr[left]+arr[right]
+    if(abs(diff)<ans):
+        ans=abs(diff)
+        left_val=arr[left]
+        rigth_val=arr[right]
+    if(diff<0):
+        left+=1
+    else:
+        right-=1
+print(left_val,rigth_val,ans)

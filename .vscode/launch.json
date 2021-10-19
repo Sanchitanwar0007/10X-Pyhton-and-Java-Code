@@ -1,0 +1,92 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Longest_subarray_with_equal_number_of_0_1and_2",
+            "request": "launch",
+            "mainClass": "Longest_subarray_with_equal_number_of_0_1and_2",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longest_subarray_with_equal_number_of_zeroes_ans_one",
+            "request": "launch",
+            "mainClass": "Longest_subarray_with_equal_number_of_zeroes_ans_one",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_if_array_pair_are_divisible_by_k",
+            "request": "launch",
+            "mainClass": "Check_if_array_pair_are_divisible_by_k",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count_of_subarrays_having_sum_equals_to_k",
+            "request": "launch",
+            "mainClass": "Count_of_subarrays_having_sum_equals_to_k",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Word_pattern",
+            "request": "launch",
+            "mainClass": "Word_pattern",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Isomorphic_string",
+            "request": "launch",
+            "mainClass": "Isomorphic_string",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Group_Shifted_String",
+            "request": "launch",
+            "mainClass": "Group_Shifted_String",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Group_anagram",
+            "request": "launch",
+            "mainClass": "Group_anagram",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_Anagram_Mapping",
+            "request": "launch",
+            "mainClass": "Find_Anagram_Mapping",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "BinaryTree",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree_Constructor",
+            "request": "launch",
+            "mainClass": "BinaryTree_Constructor"
+        },
+        {
+            "type": "java",
+            "name": "Launch first",
+            "request": "launch",
+            "mainClass": "first"
+        }
+    ]
+}

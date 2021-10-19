@@ -1,0 +1,12 @@
+n=int(input())
+arr=list(map(int,input().split()))
+arr.sort()
+i=0
+j=1
+sum=0
+while(j<len(arr)):
+    mini=min(arr[i],arr[j])
+    sum+=mini
+    i+=2
+    j+=2
+print(sum)
