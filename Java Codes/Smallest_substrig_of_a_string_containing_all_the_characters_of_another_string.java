@@ -57,6 +57,7 @@ public class Smallest_substrig_of_a_string_containing_all_the_characters_of_anot
         String main_string=scan.next();
         String sub_string=scan.next();
         System.out.println(smallest_string(main_string,sub_string));
+        scan.close();
     }
     }
 
