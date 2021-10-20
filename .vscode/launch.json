@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Recurring_sequence_in_anumber",
+            "request": "launch",
+            "mainClass": "Recurring_sequence_in_anumber",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recurring_sequence_in_a_fraction",
+            "request": "launch",
+            "mainClass": "Recurring_sequence_in_a_fraction",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Smallest_substrig_of_a_string_containing_all_the_characters_of_another_string",
             "request": "launch",
             "mainClass": "Smallest_substrig_of_a_string_containing_all_the_characters_of_another_string",
