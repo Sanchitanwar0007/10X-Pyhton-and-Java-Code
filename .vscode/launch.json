@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Count_0_1_and_2",
+            "request": "launch",
+            "mainClass": "Count_0_1_and_2",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_arithmatic_Sequence",
+            "request": "launch",
+            "mainClass": "Check_arithmatic_Sequence",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Double_pair_array",
+            "request": "launch",
+            "mainClass": "Double_pair_array",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rabbits_in_the_forest",
+            "request": "launch",
+            "mainClass": "Rabbits_in_the_forest",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Recurring_sequence_in_anumber",
             "request": "launch",
             "mainClass": "Recurring_sequence_in_anumber",
