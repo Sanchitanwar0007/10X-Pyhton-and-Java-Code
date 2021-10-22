@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Smallest_Subarray_With_All_Occurrences_Of_The_Most_Frequent_Element",
+            "request": "launch",
+            "mainClass": "Smallest_Subarray_With_All_Occurrences_Of_The_Most_Frequent_Element",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Count_0_1_and_2",
             "request": "launch",
             "mainClass": "Count_0_1_and_2",
