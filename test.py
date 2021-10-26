@@ -906,5 +906,37 @@
 # print(a//b)
 # print(a%b)
 # print(f"({a//b} {a%b})")
+# print("c:"'//'"doc")
+# def recurse(string,i,j,val):
+#     if j>=len(string):
+#         return val
+#     if string[j]==string[i]:
+#         val+=1
+#     return recurse(string,i,j+1,val)
+# myString="Jadeja"
+# sum=0
+# for i in range(len(myString)-1):
+#     sum=sum+recurse(myString,i,i+1,0)
+# print(sum)
+# arr=[17,12,15,10,21,9,15]
+# i=0
+# j=len(arr)-1
+# while(arr[i]>arr[j]):
+#     i+=1
+#     j-=1
+# # print(i,j)
+# myString="India has won against Pakistan"
 
-    
+# myString=myString.capitalize()
+
+# myString=myString.replace("P","s")
+# print(myString)
+# D = dict()
+
+# for x in enumerate(range(2)):
+
+#     D[x[0]] = x[1]
+
+#     D[x[1]+7] = x[0]
+
+# print(D)

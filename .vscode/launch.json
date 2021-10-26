@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch three_sum",
+            "request": "launch",
+            "mainClass": "three_sum",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch two_sum",
+            "request": "launch",
+            "mainClass": "two_sum",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quadruplet_sum",
+            "request": "launch",
+            "mainClass": "Quadruplet_sum",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pair_with_sum_in_sorted_matrices",
+            "request": "launch",
+            "mainClass": "Pair_with_sum_in_sorted_matrices",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task_completion",
+            "request": "launch",
+            "mainClass": "Task_completion",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Smallest_Subarray_With_All_Occurrences_Of_The_Most_Frequent_Element",
             "request": "launch",
             "mainClass": "Smallest_Subarray_With_All_Occurrences_Of_The_Most_Frequent_Element",
