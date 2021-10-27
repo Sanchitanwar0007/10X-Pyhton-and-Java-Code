@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Subdomain_visit_count",
+            "request": "launch",
+            "mainClass": "Subdomain_visit_count",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quadruplet_sum_2",
+            "request": "launch",
+            "mainClass": "Quadruplet_sum_2",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch three_sum",
             "request": "launch",
             "mainClass": "three_sum",
