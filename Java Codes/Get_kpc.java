@@ -5,6 +5,7 @@ public class Get_kpc {
     String str= scan.next();
     ArrayList<String> list= get_kpc(str);
     System.out.print(list);
+    scan.close();
 }
     static String[] sarr={"","abc","def","ghi","jkl","mno","pqrs","tu","vwx","yz"};
     public static ArrayList<String> get_kpc(String str){

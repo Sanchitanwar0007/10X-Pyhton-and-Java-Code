@@ -1,20 +1,20 @@
-def groupAnagrams(strs):
-    arr=[]
-    map={}
-    for i in range(len(strs)):
-        a=sorted(strs[i])
-        temp="".join(a)
-        arr.append((temp,i))
-    arr.sort(key=lambda x:x[0])
-    print(arr)
-    temp=[]
-    ans=[]
-    for i in range(len(arr)-1):
-        if(arr[i][0]==arr[i+1][0]):
-            print(strs[arr[i][1]])
-            temp.append(strs[arr[i][1]])
-
-
+def groupAnagrams(s):
+    d={}
+    for i in s:
+        k=''.join(sorted(i))
+        if( k not in d):
+            d[k]=[i]
+        else:
+            d[k].append(i)
+    l=[]
+    for i in list(d.values()):
+        i.sort()
+        l.append(i)
+    if(len(l)==0):
+    	l.append([''])
+    	return l
+    else:
+    	return l
     
 
 if __name__ == '__main__':

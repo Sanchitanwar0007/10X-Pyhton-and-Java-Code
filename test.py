@@ -940,3 +940,7 @@
 #     D[x[1]+7] = x[0]
 
 # print(D)
+
+# resList = [x+y for x in ['Hello ', 'Good '] for y in ['Dear', 'Bye']]
+
+# print(resList)

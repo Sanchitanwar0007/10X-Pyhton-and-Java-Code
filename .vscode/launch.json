@@ -2,6 +2,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Permutation_1",
+            "request": "launch",
+            "mainClass": "Permutation_1",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knight_tour",
+            "request": "launch",
+            "mainClass": "Knight_tour",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch N_queens_problem",
+            "request": "launch",
+            "mainClass": "N_queens_problem",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Target_sum_subset",
+            "request": "launch",
+            "mainClass": "Target_sum_subset",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Flood_fill",
+            "request": "launch",
+            "mainClass": "Flood_fill",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print_encoding",
+            "request": "launch",
+            "mainClass": "Print_encoding",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print_permitations",
+            "request": "launch",
+            "mainClass": "Print_permitations",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print_maze_path",
+            "request": "launch",
+            "mainClass": "Print_maze_path",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Get_stair_paths",
+            "request": "launch",
+            "mainClass": "Get_stair_paths",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print_kpc",
+            "request": "launch",
+            "mainClass": "Print_kpc",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print_subsequence",
+            "request": "launch",
+            "mainClass": "Print_subsequence",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rotated_sorted_array",
+            "request": "launch",
+            "mainClass": "Rotated_sorted_array",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Get_maze_path",
+            "request": "launch",
+            "mainClass": "Get_maze_path",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch GEt_stair_path",
+            "request": "launch",
+            "mainClass": "GEt_stair_path",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Subdomain_visit_count",
             "request": "launch",
             "mainClass": "Subdomain_visit_count",
