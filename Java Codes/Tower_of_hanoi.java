@@ -15,5 +15,6 @@ public class Tower_of_hanoi {
         int b=scan.nextInt();
         int c=scan.nextInt();
         toh(n,a,b,c);
+        scan.close();
     }
 }

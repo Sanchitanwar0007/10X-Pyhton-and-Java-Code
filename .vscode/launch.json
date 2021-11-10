@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Queens_permutation",
+            "request": "launch",
+            "mainClass": "Queens_permutation",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Combination",
+            "request": "launch",
+            "mainClass": "Combination",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutations_2",
+            "request": "launch",
+            "mainClass": "Permutations_2",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Permutation_1",
             "request": "launch",
             "mainClass": "Permutation_1",
