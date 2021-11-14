@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch nKnights_combination",
+            "request": "launch",
+            "mainClass": "nKnights_combination",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch n_queen_branch_and_bound",
+            "request": "launch",
+            "mainClass": "n_queen_branch_and_bound",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch nqueen_combination_2dAs1d",
+            "request": "launch",
+            "mainClass": "nqueen_combination_2dAs1d",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch nqueens_2d_as_1d",
+            "request": "launch",
+            "mainClass": "nqueens_2d_as_1d",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queens_combinataion",
+            "request": "launch",
+            "mainClass": "Queens_combinataion",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Queens_permutation",
             "request": "launch",
             "mainClass": "Queens_permutation",

@@ -38,6 +38,7 @@ public class Quadruplet_sum_2 {
 			arr4[i] = sc.nextInt();
 		}
 		System.out.println(fourSumCount(arr1, arr2, arr3, arr4));
+		sc.close();
 	}
 
 }
