@@ -2,6 +2,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Coin_change_permutataion_II",
+            "request": "launch",
+            "mainClass": "Coin_change_permutataion_II",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coin_change_permutation_1",
+            "request": "launch",
+            "mainClass": "Coin_change_permutation_1",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coin_change_permutation",
+            "request": "launch",
+            "mainClass": "Coin_change_permutation",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coin_change_1",
+            "request": "launch",
+            "mainClass": "Coin_change_1",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch word_k_selection_with_repeatation",
+            "request": "launch",
+            "mainClass": "word_k_selection_with_repeatation",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch word_k_length_selection_II",
+            "request": "launch",
+            "mainClass": "word_k_length_selection_II",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch word_k_length_selection",
+            "request": "launch",
+            "mainClass": "word_k_length_selection",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Word_k_selection_II",
+            "request": "launch",
+            "mainClass": "Word_k_selection_II",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Word_k_selection",
+            "request": "launch",
+            "mainClass": "Word_k_selection",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Word_permutation_II",
+            "request": "launch",
+            "mainClass": "Word_permutation_II",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Words_permutation",
+            "request": "launch",
+            "mainClass": "Words_permutation",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch nKnights_combination",
             "request": "launch",
             "mainClass": "nKnights_combination",
