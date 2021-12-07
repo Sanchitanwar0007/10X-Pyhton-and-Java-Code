@@ -14,8 +14,10 @@ public class Count_equal_0_and_1 {
             if(map.containsKey(sum)){
                 ans+=map.get(sum);
                 map.put(sum,map.get(sum)+1);
+            }else{
+                map.put(sum,1);
             }
-            map.put(sum,1);
+            
         }
         return ans;
     }

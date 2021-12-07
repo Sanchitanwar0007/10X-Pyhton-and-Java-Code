@@ -1,6 +1,4 @@
-import java.util.*;
 import java.io.*;
-
 public class nqueen_combination_2dAs1d {
     public static boolean IsQueenSafe(boolean[][] chess, int row, int col) {
         for(int i=row,j=col;i>=0;i--){

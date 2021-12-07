@@ -40,7 +40,6 @@ public class Linkerd_list {
     public static void insert_in_between(Node head,int pos,Node newNode){
         int count=1;
         Node temp=head;
-        
         while(count!=pos){
             count++;
             try{
@@ -49,7 +48,6 @@ public class Linkerd_list {
             System.out.println("You are inserting at out of length position");
             e.printStackTrace();
             return;
-            
         }
     }
     try{
@@ -68,7 +66,7 @@ public class Linkerd_list {
         Node new_node=new Node(40,null);
         head=insert_at_head(head, new_node);
         Node new_node2=new Node(50,null);
-        insert_in_between(head,4,new_node2);
+        insert_in_between(head,1,new_node2);
         display(head);
     }
 }

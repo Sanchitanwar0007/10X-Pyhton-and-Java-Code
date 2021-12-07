@@ -2,6 +2,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch K_partition",
+            "request": "launch",
+            "mainClass": "K_partition",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch K",
+            "request": "launch",
+            "mainClass": "K",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Friends_pair_2",
+            "request": "launch",
+            "mainClass": "Friends_pair_2",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lexicographical_number",
+            "request": "launch",
+            "mainClass": "Lexicographical_number",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count_equal_0_and_1",
+            "request": "launch",
+            "mainClass": "Count_equal_0_and_1",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Josephus_problem",
+            "request": "launch",
+            "mainClass": "Josephus_problem",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch text_file",
+            "request": "launch",
+            "mainClass": "text_file",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Linkerd_list",
+            "request": "launch",
+            "mainClass": "Linkerd_list",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Linked_list",
+            "request": "launch",
+            "mainClass": "Linked_list",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gold_Mine_2",
+            "request": "launch",
+            "mainClass": "Gold_Mine_2",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch cryptarithmatic",
+            "request": "launch",
+            "mainClass": "cryptarithmatic",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solve_sudoku_again",
+            "request": "launch",
+            "mainClass": "Solve_sudoku_again",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solve_sudoku",
+            "request": "launch",
+            "mainClass": "Solve_sudoku",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Coin_change_permutataion_II",
             "request": "launch",
             "mainClass": "Coin_change_permutataion_II",

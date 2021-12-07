@@ -944,3 +944,125 @@
 # resList = [x+y for x in ['Hello ', 'Good '] for y in ['Dear', 'Bye']]
 
 # print(resList)
+
+# a =[4,3,2,1,0]
+# n = len(a)
+
+# j = 0
+
+# for i in range(n):
+
+#     while j < n and a[i] < a[j]:
+        
+#         j += 1
+#         if(i==1):
+#             print(j)
+
+# def count(a,val):
+    
+
+#     right = len(a)-1
+
+#     left=0
+
+#     while(right>=left):
+
+#         mid=(left+right)//2
+
+#         if a[mid]==val:
+
+#             leftindex=mid-1
+
+#             count=0
+
+#             while(leftindex>=0 and a[leftindex]==val):
+
+#                 leftindex-=1
+
+#             rightindex=mid+1
+
+#             while(rightindex<=len(a)-1 and a[rightindex]==val):
+
+#                 rightindex+=1
+
+#             return [rightindex-1,leftindex+1]
+
+#         elif a[mid]>val:
+
+#             left=mid+1
+
+#         else:
+
+#             right=mid-1
+#         print(left,right)
+# a =[14,10,9,9,9,5,5,5,1,1]
+
+# right = len(a)-1
+
+# left=0
+
+# a=count(a,5)
+# print(left,right)
+ 
+
+# def func2(ans,n):
+#     print("yes")
+#     return "Success"
+
+# def func1(arr,n,ans):
+
+#     if arr[n] in ans:
+
+#         return func2(ans,n)
+
+#     ans.append(arr[n])
+
+#     return func1(arr,n+1,ans)
+
+# strings=["manas","sunny","shan","manas","shan"]
+
+# func1(strings,0,[])
+
+# dictionary1 = {'Google' : 1, 
+
+#             'Facebook' : 2, 
+
+#             'Microsoft' : 3
+
+#             } 
+
+# dictionary2 = {'GFG' : 1, 
+
+#             'Microsoft' : 2, 
+
+#             'Youtube' : 3
+
+#             } 
+
+# dictionary1.update(dictionary2); 
+
+# for key, values in dictionary1.items(): 
+
+#     print(key, values , end=" ")
+
+
+m=[0]
+def func(arr,n,k,c,s,arr_len) :
+    if(n<k):
+        return
+    if(c==n):
+        if(s==k and arr_len==k):
+            m[0]=1
+        return
+    if(m[0]!=1):
+        func(arr,n,k,c+1,s+arr[c],arr_len+1)
+        func(arr,n,k,c+1,s,arr_len)
+n=int(input())
+arr=list(map(int,input().split()))
+k=int(input())
+func(arr,len(arr),k,0,0,0)
+if(m[0]==1):
+    print(True)
+else:
+    print(False)
+
