@@ -28,6 +28,7 @@ def merge(arr,left,mid,right):
 def merge_sort(arr,left,right):
     if(left<right):
         mid=left+(right-left)//2
+        print(mid)
         merge_sort(arr,left,mid)
         merge_sort(arr,mid+1,right)
         merge(arr,left,mid,right)

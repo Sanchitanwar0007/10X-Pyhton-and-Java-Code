@@ -22,7 +22,7 @@ public class Largest_Subarray_with_contiguos_elements {
                 }
             }
         }
-        // System.out.print(ans);
+        System.out.print(ans);
         return ans;
     }
     public static void main(String[] args){
@@ -32,6 +32,7 @@ public class Largest_Subarray_with_contiguos_elements {
         for(int i=0;i<size;i++){
             arr[i]=scan.nextInt();
         }
+
         System.out.print("Largest Subarray of length is : "+large_subarray(arr));
         scan.close();
     }

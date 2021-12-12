@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Find_floor_element_in_sorted_array",
+            "request": "launch",
+            "mainClass": "Find_floor_element_in_sorted_array",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_in_nearly_sorted_array",
+            "request": "launch",
+            "mainClass": "Find_in_nearly_sorted_array",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Common_alph",
+            "request": "launch",
+            "mainClass": "Common_alph",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_pivot_in_sorted_rotated_array",
+            "request": "launch",
+            "mainClass": "Find_pivot_in_sorted_rotated_array",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch first_and_last_ocurrence",
+            "request": "launch",
+            "mainClass": "first_and_last_ocurrence",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary_search",
+            "request": "launch",
+            "mainClass": "Binary_search",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Largest_Subarray_with_contiguos_elements",
+            "request": "launch",
+            "mainClass": "Largest_Subarray_with_contiguos_elements",
+            "projectName": "Python 10X_654563c6"
+        },
+        {
+            "type": "java",
             "name": "Launch K_partition",
             "request": "launch",
             "mainClass": "K_partition",
