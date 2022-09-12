@@ -1,0 +1,46 @@
+let fs = require("fs");
+let data = fs.readFileSync(0, 'utf-8');
+let idx = 0;
+data = data.split('\n');
+
+function readLine() {
+  idx++;
+  return data[idx - 1];
+}
+
+// -------- Do NOT edit anything above this line ----------
+// Use readLine() for taking input, it will read one line of from the input  and is stored in string format
+let n = parseInt(readLine());
+let nArr = [];
+for(let i = 0; i < n; i++) {
+    nArr.push(parseInt(readLine()));
+}
+let m = parseInt(readLine());
+let mArr = [];
+for(let i = 0; i < m; i++) {
+    mArr.push(parseInt(readLine()));
+}
+let count = 0;
+let s = 0;
+let i = 0;
+while(s <= nArr.length-1) {
+    if(i< mArr.length && mArr[i] === nArr[s]){
+        s++;
+		i++;
+		if(i==mArr.length){
+			count++;
+			i=0;
+		}
+    }
+    else {
+		
+        s++;
+		i=0;
+    }
+    
+}
+if(m==0){
+	console.log(0)
+}else{
+console.log(count);
+}
